@@ -1,0 +1,12 @@
+{
+  "ID": "3AB170B7-49B5-4D66-A694-909B2EE808C9",
+  "ActionKeyword": "r",
+  "Name": "Raindrop",
+  "Description": "Search your Raindrop.io bookmarks",
+  "Author": "dragonglow91",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/dragonglow91/Flow.Launcher.Plugin.RaindropExtension",
+  "IcoPath": "Images\\app.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.Raindrop.dll"
+}

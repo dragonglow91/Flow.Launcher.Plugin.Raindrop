@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AssemblyName>Flow.Launcher.Plugin.Raindrop</AssemblyName>
+    <PackageId>Flow.Launcher.Plugin.Raindrop</PackageId>
+    <Authors>dragonglow91</Authors>
+    <PackageProjectUrl>https://github.com/dragonglow91/Flow.Launcher.Plugin.Raindrop</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dragonglow91/Flow.Launcher.Plugin.Raindrop</RepositoryUrl>
+    <PackageTags>flow-launcher flow-plugin</PackageTags>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Flow.Launcher.Plugin.Raindrop.Controls\Flow.Launcher.Plugin.Raindrop.Controls.csproj" />
+    <ProjectReference Include="..\Flow.Launcher.Plugin.Raindrop.Core\Flow.Launcher.Plugin.Raindrop.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\app.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

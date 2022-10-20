@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.Raindrop", "Flow.Launcher.Plugin.Raindrop\Flow.Launcher.Plugin.Raindrop.csproj", "{4E88C93C-7429-4C83-BCFD-F0976B4B3F72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.Raindrop.Core", "Flow.Launcher.Plugin.Raindrop.Core\Flow.Launcher.Plugin.Raindrop.Core.csproj", "{2A2A6FF1-3085-408E-8D91-6A1C067A44B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.Raindrop.Controls", "Flow.Launcher.Plugin.Raindrop.Controls\Flow.Launcher.Plugin.Raindrop.Controls.csproj", "{3E15E136-909A-4DAC-9DE8-E5A34D4A61B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E88C93C-7429-4C83-BCFD-F0976B4B3F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E88C93C-7429-4C83-BCFD-F0976B4B3F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E88C93C-7429-4C83-BCFD-F0976B4B3F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E88C93C-7429-4C83-BCFD-F0976B4B3F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2A6FF1-3085-408E-8D91-6A1C067A44B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2A6FF1-3085-408E-8D91-6A1C067A44B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2A6FF1-3085-408E-8D91-6A1C067A44B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2A6FF1-3085-408E-8D91-6A1C067A44B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E15E136-909A-4DAC-9DE8-E5A34D4A61B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E15E136-909A-4DAC-9DE8-E5A34D4A61B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E15E136-909A-4DAC-9DE8-E5A34D4A61B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E15E136-909A-4DAC-9DE8-E5A34D4A61B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98C8C30B-8028-4CFE-A01C-1F7C5BA1BF92}
+	EndGlobalSection
+EndGlobal
